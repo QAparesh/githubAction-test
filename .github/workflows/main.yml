@@ -26,8 +26,8 @@ jobs:
 
           url: ${{env.JENKINS_HOST}}
 
-          user: ${{secrets.Jenkins_Name}}
+          user: ${{ secrets.JENKINS_NAME }}
 
-          token: ${{secrets.TOKEN}}
+          token: ${{ secrets.TOKEN }}
 
           job: "java-selenium"
