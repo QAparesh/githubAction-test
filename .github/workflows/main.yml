@@ -8,7 +8,7 @@ on:
 
           - main
 env:
-  JENKINS_HOST: "http://localhost:80"
+  JENKINS_HOST: "http://localhost:8080"
 
 jobs:
 
