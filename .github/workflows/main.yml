@@ -26,6 +26,6 @@ jobs:
 
           user: "testAutomation"
 
-          token: ${{ secrets.TOKEN }}
+          token: ${secrets.TOKEN}
 
           job: "java-selenium"
