@@ -26,6 +26,6 @@ jobs:
 
           user: "testAutomation"
 
-          password: ${{ secrets.jenkins_name }}
+          token: ${{ secrets.TOKEN }}
 
           job: "java-selenium"
