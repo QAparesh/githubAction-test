@@ -1,0 +1,31 @@
+name: test
+
+on: 
+
+  push:
+
+    branches:
+
+          - main
+
+jobs:
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: trigger multiple Job
+
+        uses: appleboy/jenkins-action@master
+
+        with:
+
+          url: "https://localhost:8080"
+
+          user: "testAutomation"
+
+          password: ${{ secrets.jenkins_name }}
+
+          job: "java-selenium"
