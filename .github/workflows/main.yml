@@ -26,7 +26,7 @@ jobs:
 
           url: ${{env.JENKINS_HOST}}
 
-          user: "testautomation"
+          user: ${{secrets.Jenkins_Name}}
 
           token: ${{secrets.TOKEN}}
 
