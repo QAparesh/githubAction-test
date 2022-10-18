@@ -16,9 +16,9 @@ jobs:
 
     steps:
 
-      - name: trigger multiple Job
+      - name: trigger single Job
 
-        uses: appleboy/jenkins-action@master
+        uses: appleboy/jenkins-action@main
 
         with:
 
@@ -26,6 +26,6 @@ jobs:
 
           user: "testAutomation"
 
-          token: ${secrets.TOKEN}
+          token: ${{secrets.TOKEN}}
 
           job: "java-selenium"
