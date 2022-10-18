@@ -18,7 +18,7 @@ jobs:
 
       - name: trigger single Job
 
-        uses: appleboy/jenkins-action@main
+        uses: appleboy/jenkins-action@master
 
         with:
 
